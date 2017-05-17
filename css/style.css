@@ -1,0 +1,944 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: #f5f5f5;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+    min-width: 1200px;
+    }
+html,body{
+	width: 100%；
+	height:100%;
+    }
+html,body,div,h1,span,header,img,button{
+	margin:0;
+	padding:0;
+	}
+img{
+   max-width: 100%;
+   }
+/*头部区域*/
+.header{
+	width:100%;
+	height:120px;
+	background:#ffffff;
+	}
+.header .center{
+	max-width:1200px;
+	height:100%;
+	margin:0 auto;
+	}
+.header .logo{
+	width:30%;
+	height:100%;
+	background:url(../img/logo.png) no-repeat center;
+	float:left;
+	}
+.header .txt{
+	width:55%;
+	height:120px;
+	float:right;
+	text-align:center;
+	line-height:120px;
+	color:#999;
+	font-size:16px;
+	}
+
+/*广告位区域*/
+.adver{
+	max-width:1920px;
+	background: url(../img/bj.png) no-repeat center;
+	max-height: 633px;
+	}
+.adver img{
+	display: block;
+  
+    height: 580px;
+	}
+.adver .detail{
+	width:100%;
+	position: absolute;
+	top: 100px;
+	max-height: 633px;
+	/*background-color: blue;*/
+	}
+.adver .detail>div{
+	max-width:1000px;
+	margin:0 auto;
+	}
+.adver .detail .left{
+	width:50%;
+	float:left;
+	}
+.adver .detail .right{
+	width:50%;
+	float:right;
+	}
+.adver .detail .clearfix:after{
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+	}
+.adver .detail .top{
+	font-size:40px;
+	margin:120px 0 32px;
+	}
+.adver .detail .center{
+	font-size:24px;
+	margin-top:38px;
+	}
+.adver .detail .bottom{
+	margin-top:120px;
+	margin-bottom: 46px;
+	}
+.adver .detail .bottom .android,
+.adver .detail .bottom .ios{
+	width:200px;
+	height:60px;
+	display:inline-block;
+	color:#fff;
+	font-size:18px;
+	font-family:"微软雅黑";
+	border:none;
+	outline:none;
+	padding-left: 30px;
+	background-position: 10px 15px!important;
+	}
+.adver .detail .bottom .android{
+	background:url(../img/ad.png) no-repeat left;
+	background-color:#FF5800;
+	margin-right:10px;
+    }
+.adver .detail .bottom .ios{
+	background:url(../img/ios.png) no-repeat left;
+	background-color:#FE813F;
+   }
+.adver .detail .c{
+	color:#fff;
+	display:block;
+	}
+.adver .detail img{
+	}
+.intro{
+	max-width: 1920px;
+	height: 800px;
+	background-color:#fff;
+    }
+.intro .left{
+    width:50%;
+    height: 800px;
+    text-align:right;
+    float: left;
+    display: inline-block;
+    padding-top: 100px;
+    }
+.intro .right{
+    width:50%;
+    height: 800px;
+    float: right;
+    display: inline-block;
+    text-align: left;
+    }
+.intro .right p{
+    font-size: 26px;
+    padding: 170px 0 0px 100px;
+
+    }
+.intro .right span{
+    padding-left: 100px;
+    display: block;
+    width: 55%;
+    line-height: 40px;
+    }
+.integrity{
+	max-width: 1920px;
+	height: 820px;
+}
+.integrity .top{
+    max-width: 1920px;
+    height: 100px;
+    padding-top: 120px;
+    text-align: center;
+    }
+ .integrity .top span{
+ 	font-size: 30px;
+	color:#333333;
+	font-weight: bold;
+	padding-left:10px;
+ 	
+ }
+.integrity .left{
+	padding-top:100px;
+    width:48%;
+    float: left;
+    text-align: center;
+    border:10px solid url(../img/shuz.png);
+    }
+.integrity .left div{
+	float: right;
+     }
+.integrity .left span{
+	display: block;
+	margin: 0 180px 60px 80px;
+    }
+.integrity .center{
+	width: 10px;
+	height: 500px;
+	float: left;
+}
+.integrity .right{
+	padding-top:80px;
+     width:48%;
+     float: right;
+     text-align: center;
+    }
+.integrity .right div{
+    float: left;
+    }
+.integrity .right span{
+    display: block;
+    margin: 0 40px 60px 120px;
+    }
+.integrity .user {
+	padding-top:40px;
+	padding-left:20px;
+	}
+.integrity .business h3,.user h3{
+    font-family: monospace;
+    color: #333;
+    }
+.dredge{
+    max-width: 1920px;
+    height: 600px;
+    background: url(../img/bj2.png) no-repeat center;
+    }
+.dredge img{
+    width:100%;
+    }
+.dredge div{
+     text-align: center;
+    }
+.dredge p{
+	font-size: 26px;
+    color: #ffffff;
+    padding:100px 0 120px 0;
+    }
+.dredge span{
+    font-size: 40px;
+    color: #ffffff;
+    }
+.dredge input{
+    background: url(../img/shape.png) no-repeat center;
+    border:none;
+    width: 140px;
+    height: 162px;
+    margin: 10px;
+	font-size:20px;
+	font-family:"微软雅黑";
+    }
+.advantage{
+   background-color: #fff;
+   }
+.advantage .top{
+    max-width: 1920px;
+    text-align: center;
+    padding-top: 120px;
+    }
+.advantage .top input{
+	background: url(../img/flag.png) no-repeat left;
+	background-position: 123px 21px!important;
+    background-color: #FF5800;
+	font-family:"Microsoft YaHei";
+    font-size:36px;
+    color: #fff;
+    border-radius: 50px;
+    padding:20px 200px;
+    border:none;
+    }
+.advantage .bottom{
+    text-align: center;
+    }
+.advantage .bottom a{
+    margin:80px 45px 120px 45px;
+    display: inline-block;
+    }
+.advantage .bottom span{
+    display: block;
+    margin-top: 20px;
+    color: #333;
+    font-size: 20px;
+	font-family:"微软雅黑";
+    }
+.see{
+	max-width: 1920px;
+    
+	background-color:#fff;
+    }
+.see .left{
+    width:50%;
+    padding:120px 0 120px 0;
+    text-align: right;
+    float: left;
+    display: inline-block;
+    padding-top: 100px;
+    background-color: #f5f5f5;
+    }
+.see .right{
+    width:50%;
+    background-color: #f5f5f5;
+    float: right;
+    display: inline-block;
+    text-align: left;
+    padding: 0px 0 294px 0;
+    }
+	/*
+.see .right p{
+    font-size: 26px;
+    padding: 170px 0 40px 100px;
+
+    }*/
+.see .right{
+	margin-top:200px;
+	}
+.see .right span{
+    padding-left: 100px;
+    display: block;
+    width: 50%;
+    line-height: 60px;
+    }
+.clearfix:after {
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+    }
+.foot{
+	height:280px;
+    max-width: 1920px;
+    text-align: center;
+    background-color: #ffffff;
+    }
+.foot p{
+	padding-top:80px;
+	line-height:30px;
+	font-size:14px;
+	color:#999;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+    }
+	.foot p a{
+	color:#999;
+	text-decoration:none;
+	display: block
+	}
+/*在992和1800像素之间的屏幕里，这里的样式才生效*/
+@media (min-width: 992px) and (max-width: 1800px){
+     
+}
+/*在768和991像素之间的屏幕里，这里的样式才生效*/
+@media (min-width: 768px) and (max-width: 991px){
+     
+}
+/*在480和767像素之间的屏幕里，这里的样式才生效*/
+@media (min-width: 480px) and (max-width: 767px){
+     
+}
+/*在小于480像素的屏幕,这里的样式才生效*/
+@media (max-width: 480px){
+	body{
+		min-width: 0;
+	}
+	.header{
+		height: 70px;
+	}
+	.header .txt{
+		height: 70px;
+		line-height: 70px;
+		font-size: 13px;
+	}
+	.adver .detail .bottom{
+		display: none;
+	}
+	.header .logo{
+		width: 40%;
+		background-size: 106px;
+	}
+	.adver .detail .top{
+		font-size: 20px;
+		margin: 50px 0 0 15px;
+	}
+	.adver .detail .center {
+	    font-size: 13px;
+        margin: 13px 0 10px 15px;
+    }
+	.adver .detail .left{
+		width: 70%;
+	}
+	.adver .detail .right{
+		width: 30%;
+	}
+	.adver .detail .bottom {
+	    margin-top: 0px;
+	    margin-bottom: -175px;
+    }
+    .adver .detail .bottom .android, .adver .detail .bottom .ios {
+        width: 150px;
+        background-position: 10px 9px!important;
+        font-size: 13px;
+        height: 50px;
+   
+    }
+    .adver .detail img {
+        padding: 45px 0 0 3px;
+        width: 100%;
+        height: 100%;
+    }
+    .adver img {
+        height: 180px;
+    }
+    .adver .detail {
+        top: 70px;
+    }
+    .business{
+    	position: relative;
+        top: 30px;
+    }
+    .integrity .center img{
+    	width: 5px;
+    }
+    .user{
+		position: relative;
+        top: 50px;
+	}
+     .integrity .top span {
+        font-size: 18px;
+    }
+    .integrity .top img{
+        width: 10%;
+	    position: relative;
+        top: 10px;
+    }
+    .integrity .top {
+    height: 75px;
+    }
+    .integrity .left{
+    	width: 100%;
+	    padding-top: 0px;
+    }
+    .integrity .left span {
+        margin:0 56px 30px 0px;
+    }
+    .integrity .center {
+    width: 92px;
+    height: 556px;
+    float: left; 
+    position: absolute;
+    transform:rotate(90deg);
+	-ms-transform:rotate(90deg); 	/* IE 9 */
+	-moz-transform:rotate(90deg); 	/* Firefox */
+	-webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+	-o-transform:rotate(90deg); 	/* Opera */
+    }
+    .integrity .right {
+	    width: 100%;
+	    float: right;
+	    text-align: center;
+    }
+    .integrity .right span {
+        margin: 0 24px 37px 31px;
+    }
+    .integrity {
+        height: 570px;
+    }
+    .advantage .top {
+        padding-top: 43px;
+    }
+   .advantage .top input {
+	    background-position: 44px 6px!important;
+	    font-size: 17px;
+	    padding: 7px 85px;
+	    background-size: 26px;
+    }
+    .advantage .bottom  a{
+        margin: 0;
+        float: left;
+        width: 159px;
+        background-color: #fff;
+        padding: 25px 0;
+     }  
+     .advantage .bottom span{
+        font-size: 12px;
+
+     }  
+    .advantage .bottom img{
+        width: 50%;
+    }
+	.see .left,.see .right{
+		width: 100%;
+	}
+	.intro .left,.intro .right{
+		width: 100%;
+		height: auto;
+	}
+	.intro .left, .intro .right {
+	    text-align: center;
+    }
+	.intro .left img{
+		width: 70%;
+	}
+	.intro {
+	    height: 690px;
+     }
+     .integrity .left span {
+        margin: 0 120px 30px 0px;
+    }
+	.intro .right p{
+		padding: 0px 0 0 20px;
+		position: absolute;
+	    top: 282px;
+	    font-size: 17px;
+	}
+	.intro .right span{
+		width: 95%;
+		padding-left:10px;
+		line-height: 26px;
+		font-size: 14px;
+		text-align: left;
+
+	}
+	.integrity .right span{
+		margin:0 0px 37px 94px;
+	}
+	.integrity .top {
+        padding-top: 27px;
+    }
+	.advantage .top input {
+	    background-position: 77px 11px!important;
+	    font-size: 25px;
+	    padding: 7px 121px;
+		background-size: 32px;
+    }
+	.dredge span {
+        font-size: 20px;
+    }
+    .dredge p {
+	    font-size: 13px;
+	    padding: 30px 0;
+    }
+	.dredge input {
+		width: 120px;
+		height: 120px;
+		background-size: 95px;
+		margin: 0px;
+		font-size: 12px;
+	}
+	.dredge {
+        height: 415px;
+    }
+    .business img,.user img{
+    	width: 50%;
+    }
+    .integrity {
+        height: 664px;
+    }
+    .advantage .bottom a {
+        padding: 30px 23px 30px 24px;
+        float: left;
+    }
+     .see .left {
+	    padding: 32px 0 0px 0;
+	    text-align: center;
+    }
+    .see .right p {
+	    padding: 0px 0 0px 38px;
+	    font-size: 12px;
+    }
+	.see .right {
+         padding: 0px 0 38px 0;
+     }
+	 .see .right {
+         margin-top: 45px;
+     }
+    .see .right span {
+	    width: 100%;
+	    line-height: 40px;
+	    font-size: 12px;
+		padding-left: 0;
+		text-align:center;
+   }
+    .see .left img{
+	   width:50%;
+    }
+	.foot {
+	    height: 75px;
+   	    font-size: 12px;
+        padding: 10px 0 10px 0;
+   }
+   .foot p{
+	   padding:0;
+	   line-height: 21px;
+       font-size: 12px;
+
+   }
+
+}
+/*在412和413像素之间的屏幕里，这里的样式才生效*/
+@media (min-width:412px) and (max-width: 413px){
+}
+/*在375和411像素之间的屏幕里，这里的样式才生效*/
+@media (min-width:375px) and (max-width: 411px){
+   .header .txt {
+    width: 60%;
+    }
+	.header .txt {
+        height: 65px;
+    }
+	.adver img {
+        height: 133px;
+    }
+	.adver .detail {
+        top: 65px;
+    }
+	.header {
+        height: 65px;
+    }
+	.adver img {
+	    height: 148px;
+	}
+	.adver .detail .top{
+		font-size: 16px;
+		margin: 32px 0 0 8px;
+	}
+	.adver .detail .center {
+	    font-size: 12px;
+        margin: 13px 0 10px 8px;
+    }
+    .adver .detail img {
+	    padding: 45px 0 0 3px;
+	    width: 85%;
+	}
+	.intro .left {
+        text-align: center;
+        padding-top: 52px;
+    }
+    .intro .right p {
+	    position: absolute;
+	    top: 212px;
+	    font-size: 17px;
+    }
+    .intro {
+    height: 546px;
+    }
+    .intro .right span {
+    font-size: 12px;
+    line-height: 21px;
+    }
+    .integrity .top span {
+    font-size: 18px;
+    }
+    .integrity .top img{
+    width: 10%;
+    }
+    .integrity .top {
+    height: 75px;
+    }
+    .integrity .left{
+    	width: 100%;
+		padding-top: 0px;
+    }
+    .integrity .left span {
+        margin:0 56px 30px 0px;
+    }
+    .integrity .center {
+    width: 92px;
+    height: 556px;
+    float: left; 
+    position: absolute;
+    transform:rotate(90deg);
+	-ms-transform:rotate(90deg); 	/* IE 9 */
+	-moz-transform:rotate(90deg); 	/* Firefox */
+	-webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+	-o-transform:rotate(90deg); 	/* Opera */
+    }
+    .integrity .right {
+	    width: 100%;
+	    float: right;
+	    text-align: center;
+    }
+    .integrity .right span {
+        margin:0 0px 37px 90px;
+    }
+	.integrity .user {
+		padding-left: 0px;
+     }
+    .integrity {
+        height: 664px;
+    }
+    .dredge input {
+	    width: 80px;
+	    height: 80px;
+	    background-size: 75px;
+    }
+    .dredge {
+        height: 310px;
+    }
+	.dredge input {
+		width: 100px;
+		height: 100px;
+		background-size: 80px;
+		margin: 0px;
+		font-size: 12px;
+	}
+    .advantage .top {
+        padding-top: 43px;
+    }
+   .advantage .top input {
+	    background-position: 44px 6px!important;
+	    font-size: 17px;
+	    padding: 7px 85px;
+	    background-size: 26px;
+    }
+    .advantage .bottom  a{
+        margin: 0;
+        float: left;
+        width: 42.5%;
+        background-color: #fff;
+        padding: 25px 14px;
+     }  
+     .advantage .bottom span{
+        font-size: 12px;
+
+     }  
+    .advantage .bottom img{
+        width: 50%;
+    }
+    .business img, .user img {
+        width: 50%;
+    }
+    .see .left {
+	    padding: 32px 0 0px 0;
+	    text-align: center;
+    }
+	 .see .left img{
+	   width:50%;
+    }
+    .see .right p {
+	    padding: 0px 0 0px 38px;
+	    font-size: 12px;
+    }
+	.see .right {
+         padding: 0px 0 38px 0;
+     }
+	 .see .right {
+         margin-top: 45px;
+     }
+    .see .right span {
+	    width: 100%;
+	    line-height: 40px;
+	    font-size: 12px;
+		padding-left: 0;
+		text-align:center;
+   }
+   .foot {
+	    height: 75px;
+   	    font-size: 12px;
+        padding: 10px 0 10px 0;
+   }
+   .foot p{
+	   padding:0;
+	   line-height: 21px;
+       font-size: 12px;
+
+   }
+}
+/*在320和374像素之间的屏幕里，这里的样式才生效*/
+@media (min-width:320px) and (max-width: 374px){
+	.header .txt {
+        width: 60%;
+    }
+    .header .logo {
+	    transform: scale(0.875);
+    }
+	.header .txt {
+        height: 60px;
+		transform:scale(0.875);
+    }
+	.adver img {
+        height: 133px;
+    }
+	.adver .detail {
+        top: 60px;
+    }
+	.header {
+        height: 60px;
+    }
+	.adver img {
+	    height: 148px;
+	}
+	.adver .detail .top{
+		font-size: 16px;
+		margin: 32px 0 0 0;
+		transform: scale(0.875);
+	}
+	.adver .detail .center {
+	    font-size: 12px;
+        margin: 13px 0 10px 0px;
+	    transform: scale(0.875);
+    }
+    .adver .detail img {
+	    padding: 60px 0 0 3px;
+	    width: 85%;
+	}
+	.business,.user{
+		position: relative;
+        top: 25px;
+	}
+	.dredge p {
+	    padding: 15px 0;
+    }
+
+	.dredge span {
+        font-size: 20px;
+    }
+	.intro .left {
+        text-align: center;
+        padding-top: 52px;
+    }
+    .intro .right p {
+	    position: absolute;
+	    top: 212px;
+	    font-size: 17px;
+    }
+    .intro {
+        height: 500px;
+    }
+    .intro .right span {
+		font-size: 12px;
+		line-height: 21px;
+		padding-top: 0px;
+
+    }
+    .integrity .top span {
+        font-size: 18px;
+    }
+    .integrity .top img{
+        width: 10%;
+    }
+    .integrity .top {
+        height: 75px;
+    }
+    .integrity .left{
+    	width: 100%;
+		padding-top: 0px;
+
+    }
+    .integrity .left span {
+        margin:0 56px 30px 0px;
+    }
+    .integrity .center {
+		width: 49px;
+		height: 520px;
+		float: left; 
+		position: absolute;
+		transform:rotate(90deg);
+		-ms-transform:rotate(90deg); 	/* IE 9 */
+		-moz-transform:rotate(90deg); 	/* Firefox */
+		-webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+		-o-transform:rotate(90deg); 	/* Opera */
+    }
+    .integrity .right {
+	    width: 100%;
+	    float: right;
+	    text-align: center;
+    }
+    .integrity .right span {
+        margin: 0 0px 37px 56px;
+    }
+    .integrity {
+        height: 664px;
+    }
+	.integrity .user {
+		padding-left: 0px;
+     }
+    .dredge input {
+	    width: 70px;
+	    height: 70px;
+	    background-size: 64px;
+    }
+    .dredge {
+        height: 310px;
+    }
+	.dredge input {
+		width: 30%;
+		height: 85px;
+		background-size: 76px;
+		margin: 0px;
+		font-size: 12px;
+		transform: scale(0.8);
+	}
+    .advantage .top {
+        padding-top: 43px;
+    }
+   .advantage .top input {
+	    background-position: 44px 6px!important;
+	    font-size: 17px;
+	    padding: 7px 85px;
+	    background-size: 26px;
+    }
+    .advantage .bottom  a{
+        margin: 0;
+        float: left;
+        width: 50%;
+        background-color: #fff;
+        padding: 25px 0;
+     }  
+     .advantage .bottom span{
+        font-size: 12px;
+
+     }  
+    .advantage .bottom img{
+        width: 50%;
+    }
+    .business img, .user img {
+        width: 50%;
+    }
+    .see .left {
+	    padding: 32px 0 0px 0;
+	    text-align: center;
+    }
+    .see .right p {
+	    padding: 0px 0 0px 38px;
+	    font-size: 12px;
+    }
+	.see .right {
+         padding: 0px 0 38px 0;
+     }
+	 .see .right {
+         margin-top: 45px;
+     }
+    .see .right span {
+	    width: 100%;
+	    line-height: 40px;
+	    font-size: 12px;
+		padding-left: 0;
+		text-align:center;
+   }
+    .see .left img{
+	   width:50%;
+    }
+   .foot {
+	    height: 75px;
+   	    font-size: 12px;
+        padding: 10px 0 10px 0;
+   }
+   .foot p{
+	   padding:0;
+	   line-height: 21px;
+       font-size: 12px;
+
+   }
+}
